@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.convert {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  &__heading {
+    text-align: center;
+    margin-bottom: 48px;
+  }
+  &__select {
+    margin-bottom: 48px;
+  }
+  &__radio {
+    margin-bottom: 48px;
+  }
+  &__last-verb {
+    margin-bottom: 48px;
+  }
+  &__output {
+    font-size: 36px;
+  }
+}
