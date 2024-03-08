@@ -96,7 +96,9 @@ function App() {
 
       //CHECK IF Y IS USUALLY CHANGED TO I like in the book
       ///////////
-      part2 = part2.charAt(0) === "y" ? part2.replace("y", "i") : part2;
+
+      part2 = part2.charAt(0) === "y" ? "i" + part2.substring(1) : part2;
+
       ///////////////
 
       let characterToBeReduplicated = part1[part1.length - 2];
